@@ -1,0 +1,78 @@
+:root {
+  --zv-purple: #76269b;
+  --zv-purple-dark: #5b177f;
+  --zv-lime: #d3df24;
+  --zv-bg: #fbf7ff;
+  --zv-panel: #ffffff;
+  --zv-text: #4d1d68;
+}
+
+body,
+.layout-wrapper {
+  background: linear-gradient(180deg, #fff 0%, var(--zv-bg) 100%) !important;
+  color: var(--zv-text);
+}
+
+.navbar,
+.topbar,
+.page-header {
+  background: rgba(255,255,255,.92) !important;
+  border-bottom: 1px solid #d8c7e5 !important;
+}
+
+.sidebar,
+.main-sidebar {
+  background: linear-gradient(180deg, #f4e9fb 0%, #fbf7ff 100%) !important;
+  border-right: 1px solid #d8c7e5 !important;
+}
+
+.sidebar .nav-link.active,
+.main-sidebar .nav-link.active,
+.nav-sidebar .nav-link.active {
+  background: linear-gradient(135deg, var(--zv-purple), #9c45bd) !important;
+  color: #fff !important;
+  border-radius: 8px;
+}
+
+.sidebar .nav-link,
+.main-sidebar .nav-link,
+.nav-sidebar .nav-link {
+  color: var(--zv-text) !important;
+}
+
+.card,
+.dashboard-card,
+.widget,
+.search-card {
+  background: var(--zv-panel) !important;
+  border: 1px solid #eadff1 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 6px 18px rgba(86, 31, 111, .08) !important;
+}
+
+.btn-primary,
+.search-input-button,
+button[type="submit"] {
+  background: var(--zv-purple) !important;
+  border-color: var(--zv-purple) !important;
+}
+
+.btn-primary:hover {
+  background: var(--zv-purple-dark) !important;
+  border-color: var(--zv-purple-dark) !important;
+}
+
+.badge,
+.status,
+.progress-bar {
+  background-color: var(--zv-lime) !important;
+  color: #4d1d68 !important;
+}
+
+a {
+  color: var(--zv-purple);
+}
+
+a:hover {
+  color: var(--zv-purple-dark);
+}
